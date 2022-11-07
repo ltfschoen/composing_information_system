@@ -1,8 +1,11 @@
 torch>=1.5.0
 texar-pytorch>=0.1.1
-faiss-cpu>=1.6.1
+faiss-cpu>=1.6.1pwd
+# ModuleNotFoundError: No module named 'yaml'
+pyyaml>=6.0
 git+https://git@github.com/asyml/forte-wrappers.git#egg=forte.nltk&subdirectory=src/nltk
 git+https://git@github.com/asyml/forte-wrappers.git#egg=forte.elastic&subdirectory=src/elastic
 git+https://git@github.com/asyml/forte-wrappers.git#egg=forte.allennlp&subdirectory=src/allennlp
 git+https://git@github.com/asyml/forte-wrappers.git#egg=forte.spacy&subdirectory=src/spacy
-git+https://git@github.com/asyml/forte.git#egg=forte
+# git+https://git@github.com/asyml/forte.git#egg=forte
+forte==0.2.0
